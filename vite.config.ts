@@ -11,11 +11,13 @@ export default defineConfig(({ mode }) => {
       host: '0.0.0.0',
       port,
       strictPort: false,
+      allowedHosts: ['localhost', '127.0.0.1', 'total-energie-1.onrender.com'],
     },
     preview: {
       host: '0.0.0.0',
       port,
       strictPort: false,
+      allowedHosts: ['localhost', '127.0.0.1', 'total-energie-1.onrender.com'],
     },
   };
 });
